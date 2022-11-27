@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+    border-radius: 5px;
+    padding: 0px 20px;
+    transition: all;
+    transform: translateY(0px);
+    transition-duration: 0.2s;
+    box-shadow: 4px 6px grey;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    color: white
+}
+
+.card:hover {
+    color: rgb(89, 223, 96);
+    transform: translateY(2px);
+}
+
+.title {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
